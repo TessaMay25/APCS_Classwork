@@ -10,6 +10,11 @@ public class Vampire {
     public static void testVampire(float hour, boolean awake, boolean expected) {
         boolean result = isVampire(hour, awake);
         System.out.print("hour: " + hour + " awake: " + awake + " expected: " + expected + " result: " + result + " ");
+        
+         if (result == expected)
+            System.out.println("true");
+        else 
+            System.out.println("false");
     }
 
     public static void main(String[] args) {
