@@ -16,6 +16,11 @@ public class GoodDeal
     {
         boolean result = goodDeal(originalPrice, salePrice);
         System.out.print("originalPrice: " + originalPrice + "salePrice: " + salePrice + "expected: " + expected + "result: " + result + " ");
+        
+         if (result == expected)
+            System.out.println("true");
+        else 
+            System.out.println("false");
     }
     
     public static void main(String[] args)

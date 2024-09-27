@@ -16,6 +16,11 @@ public class PosNeg
     {
         boolean result = posNeg(a,b,negative);
         System.out.print("a: " + a + " b: " +  b + "negative: " + negative + "expected: " + expected + "result: " + result + " ");
+        
+         if (result == expected)
+            System.out.println("true");
+        else 
+            System.out.println("false");
     }
     public static void main(String[] args)
     {
